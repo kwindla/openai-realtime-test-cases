@@ -7,7 +7,7 @@
 ```
 python3.12 -m venv venv                                                       
 source venv/bin/activate
-pip install asyncio pyaudio websockets
+pip install asyncio pyaudio websockets==13.1
 export OPENAI_API_KEY=...
 ```
 
